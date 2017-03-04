@@ -6,9 +6,8 @@ This plugin is for use with Apache Cordova on Android and iOS for securely stori
 
 <font size="6"><b>Supported platforms</b></font>
 
-Android
+Android<br />
 iOS
-Windows (Coming Soon!)
 
 
 <font size="6"><b>Installation</b></font>
