@@ -1,0 +1,31 @@
+{
+  "name": "thisiswhatitis",
+  "version": "1.1.8",
+  "description": "thisiswhatitis",
+  "cordova": {
+    "id": "cordova-plugin-thisiswhatitis",
+    "platforms": [
+      "android"
+    ]
+  },
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sid-net/thisiswhatitis.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+	"cordova-iOS",
+	"securestorage",
+	"Keystore",
+	"Keychain",
+	"Secure",
+	"Storage"
+  ],
+  "author": "Siddharth Tadiparthi",
+  "license": "MIT",
+   "bugs": {
+    "url": "https://github.com/Sid-net/thisiswhatitis/issues"
+  }
+}
+

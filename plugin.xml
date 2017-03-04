@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-thisiswhatitis" version="1.1.8" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+<name>thisiswhatitis</name>
+<js-module name="thisiswhatitis" src="www/thisiswhatitis.js">
+<clobbers target="cordova.plugins.thisiswhatitis" />
+</js-module>
+<platform name="android"><config-file parent="/*" target="res/xml/config.xml">
+<feature name="thisiswhatitis"><param name="android-package" value="cordova.plugin.thisiswhatitis.thisiswhatitis" />
+</feature>
+</config-file>
+<config-file parent="/*" target="AndroidManifest.xml">
+</config-file><source-file src="src/android/thisiswhatitis.java" target-dir="src/cordova-plugin-thisiswhatitis/thisiswhatitis" />
+</platform>
+  <platform name="ios">
+        <config-file parent="/*" target="config.xml">
+            <feature name="thisiswhatitis">
+                <param name="ios-package" value="thisiswhatitis" />
+            </feature>
+        </config-file>
+        <header-file src="src/ios/thisiswhatitis.h" />
+        <header-file src="src/ios/KeychainWrapper.h"/>
+        <source-file src="src/ios/thisiswhatitis.m"/>
+        <source-file src="src/ios/KeychainWrapper.m"/>
+        <framework src="Security.framework" />        
+    </platform>
+
+
+</plugin>
