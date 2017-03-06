@@ -48,7 +48,7 @@ Plugin has been updated to work with all API levels for Android and all OS versi
 
 Windows Coming Soon!
 
-Part of the code has been extracted from https://github.com/pradeep1991singh/cordova-plugin-secure-key-store/blob/master/src/ios/SecureKeyStore.m 
+Part of the code has been extracted from https://github.com/pradeep1991singh/cordova-plugin-secure-key-store 
 
 Credits to <font size="8"><b>Karthik Vinnakota</b></font> for helping in getting the iOS code to a working condtion.
 
